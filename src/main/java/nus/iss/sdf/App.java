@@ -57,5 +57,25 @@ public class App
                 break;
         }
 
+
+        Integer myAge = 0;
+        myAge = Integer.parseInt(con.readLine("What is your age?"));
+
+        if (myAge >= 0 && myAge <= 2) {
+            System.out.println("You are a baby.");
+        }
+        else if (myAge > 2 && myAge <= 4) {
+            System.out.println("You are a toddler.");
+        }
+        else if (myAge > 4 && myAge <= 12) {
+            System.out.println("You are a child.");
+        }
+        else if (myAge > 12 && myAge < 19) {
+            System.out.println("You are a teenager.");
+        }
+        else {
+            System.out.println("You are an adult.");
+        }
+        
     }
 }
