@@ -42,5 +42,20 @@ public class App
             System.out.println("You are a boring person!");
         }
 
+        switch(input) {
+            case "swim":
+                System.out.println("Swimming is good!");
+                break;
+            case "run":
+                System.out.println("Running is good!");
+                break;
+            case "cycle":
+                System.out.println("Cycling is good!");
+                break;
+            default:
+                System.out.println("You are a boring person!");
+                break;
+        }
+
     }
 }
